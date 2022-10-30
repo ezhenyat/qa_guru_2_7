@@ -22,7 +22,6 @@ def test_submit_student_registration_form():
     app.registration_form.submit()
 
     # THEN
-
     app.registration_form.should_have_submitted(
         [
             ('Student Name', 'Аркадий Светов'),
