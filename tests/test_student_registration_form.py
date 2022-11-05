@@ -27,7 +27,7 @@ def test_submit_student_registration_form():
             ('Student Name', 'Аркадий Светов'),
             ('Student Email', 'mrlibertarian@gmail.com'),
             ('Mobile', '5990807420'),
-            ('Date of Birth', '30 October,2022'),
+            ('Date of Birth', '29 December,1996'),
             ('Subjects', 'Maths, Biology'),
             ('Hobbies', 'Reading, Sports'),
             ('Picture', 'kitten.png'),

@@ -1,9 +1,10 @@
 from selene.support.shared import browser
+from selenium.webdriver.common.keys import Keys
 from selene import have, command
 
 
 def fill_by_input(element, value):
-    browser.element(element).perform(command.js.set_value(value))
+    browser.element(element).click().send_keys(Keys.COMMAND + 'a').type(value).press_enter()
 
 
 def fill_by_datepicker(element, day, month, year):
